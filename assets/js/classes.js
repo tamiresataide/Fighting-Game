@@ -83,9 +83,9 @@ class Stage {
    }
 
    insertIcon(){
-      this.fighterEl.querySelector('.icon').innerHTML = `<img src="../../media/${this.fighter.charClass}.png">`
+      this.fighterEl.querySelector('.icon').innerHTML = `<img src="./assets/media/${this.fighter.charClass}.png">`
 
-      this.foeEl.querySelector('.icon').innerHTML = `<img src="../../media/${this.foe.charClass}.png">`
+      this.foeEl.querySelector('.icon').innerHTML = `<img src="./assets/media/${this.foe.charClass}.png">`
    }
 
    // Function that selects the buttons and identifies who is attacking and who is being attacked, and adds the correct action for the button:
